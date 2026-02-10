@@ -1,0 +1,446 @@
+---
+title: "AI Literacy"
+subtitle: "Working With AI"
+format:
+  pptx:
+    reference-doc: Quarto-Template-for-Powerpoint-Presentation/Code/background.pptx
+---
+
+# The Brilliant, Untrustworthy Intern
+
+## How to work with powerful, unreliable AI
+
+---
+
+## A "Magic Brain"?
+
+- We often see LLMs as all-knowing.
+- This can lead to excessive trust.
+- The answers can *feel* too perfect... can we trust them?
+
+::: notes
+This slide addresses the initial "wow" factor of AI. The goal is to set up the problem: our initial mental model is often flawed and dangerous. We see a "magic brain" and start to believe it without question.
+:::
+
+---
+
+## A Better Metaphor
+
+A better mental model for an LLM is a...
+
+**Brilliant but Untrustworthy Intern**
+
+- Incredibly fast and knowledgeable.
+- ...but has no real-world experience.
+- ...and makes things up with great confidence.
+
+::: notes
+This is the core insight of the module. The "intern" metaphor is powerful because it's relatable. An intern can be a huge asset, but no one would trust their work without verification. This reframes the AI's confident tone as a potential bug, not a feature.
+:::
+
+---
+
+## Would You Trust an Intern Blindly?
+
+> "You wouldn't let a new intern publish a report without checking their work. Why would you treat this AI any differently?"
+
+::: notes
+This anchor question makes the metaphor concrete. It directly challenges the user to connect the AI to a real-world scenario, highlighting the absurdity of blind trust.
+:::
+
+---
+
+## Your New Role: Manager
+
+Your job is not just asking questions. It's **managing** your new "intern."
+
+- Give clear, detailed instructions.
+- **Verify all work.**
+
+::: notes
+This slide defines the user's new role. It's a crucial shift from being a passive consumer of answers to an active manager of a powerful tool. The responsibility is on the user, not the AI.
+:::
+
+---
+
+## A Lesson from History
+
+::: {.incremental}
+- The Mechanical Turk was a chess-playing "machine" from the 1770s.
+- It amazed audiences and defeated challengers like Napoleon.
+- But it was a brilliant illusion, hiding a human chess master inside.
+:::
+
+::: notes
+Tell the full story here. "In 1770, a Hungarian inventor unveiled 'The Mechanical Turk,' an automaton that seemed to play chess on its own. It was a sensation. People saw it as a 'thinking machine.' The reality was a hidden human operator. LLMs are like the Turk. They present a confident, intelligent front, but it's a sophisticated illusion. If you don't question the mechanism, you're just part of the magic show."
+:::
+
+---
+
+## Key Takeaway
+
+**Your AI is a tool, not an oracle.**
+
+Treat it like an intern:
+- Instruct it carefully.
+- Value its output.
+- **Verify everything.**
+
+---
+
+# The Curator's Discipline
+
+## From Information Chaos to Grounded Analysis
+
+---
+
+## The Problem: Information Chaos
+
+- We know we must verify AI output. (Level 1)
+- But checking random sources is exhausting.
+- The answer is buried in a mountain of reports, articles, and PDFs.
+
+::: incremental
+- This is **chaos**.
+:::
+
+::: notes
+Start with the pain point. We've learned to be skeptical, but that has created a new problem: the verification process itself is unmanageable. The visual is a messy pile of documents.
+:::
+
+---
+
+## A New Role: The Curator
+
+Stop being a user, start being a **curator**.
+
+Your goal: Build a private, trusted library for your AI analyst.
+
+The tool: A **Source Register**
+- A simple, ordered list of your trusted sources.
+- You control the ground truth.
+
+::: notes
+Introduce the solution: a new role and a new tool. The 'Source Register' is just a fancy name for a disciplined list, but it frames the activity as something professional and important. The visual is a clean, organized bookshelf or library.
+:::
+
+---
+
+## The Analyst & The Library
+
+> "If your AI is an analyst, what books have you given it to read? Can you trust its analysis if it's only read random things from the internet?"
+
+::: notes
+This question reinforces the new mental model. An analyst is only as good as their sources. It shifts the responsibility for 'truth' from the AI to the user's curation effort.
+:::
+
+---
+
+## The Curator's Workflow
+
+1.  **Find** a trusted document.
+2.  **Curate:** Use the AI to summarize it and add it to your Source Register.
+3.  **Analyze:** Ask the AI to perform analysis *using only the sources from your register*.
+
+::: notes
+This slide provides the practical, step-by-step process. It shows how the AI is used in two different ways: first as a summarizer to build the library, and second as an analyst to draw insights from that library.
+:::
+
+---
+
+## A Lesson from History
+
+::: {.incremental}
+- For 1,400 years, Egyptian hieroglyphs were a mystery—a mountain of unreadable data.
+- The **Rosetta Stone** changed everything.
+- It was the "source register," with the same text in a known language (Greek).
+- It provided the ground truth to unlock the entire system.
+:::
+
+::: notes
+Tell the story. "The Rosetta Stone didn't contain all the answers of ancient Egypt. But it was the trusted, verifiable key that made analyzing all the *other* data possible. You must stop looking at the noisy temple walls and start building your own Rosetta Stone—your curated set of trusted sources."
+:::
+
+---
+
+## Key Takeaway
+
+**The quality of the answer depends on the quality of your library.**
+
+- Your primary task is curating, not just prompting.
+- Build your Source Register one document at a time.
+- You control the ground truth.
+
+---
+
+# The Code Translator
+
+## Ask Questions of Your Data in Plain English
+
+---
+
+## The Problem: "Spreadsheet Hell"
+
+- You have valuable data in tables, spreadsheets, and CSVs.
+- The answers you need are **locked inside**.
+- You feel stuck because you don't write code.
+
+::: notes
+This is a common and frustrating pain point for many professionals. They are data-rich but insight-poor because of the "last mile" problem of analysis. Acknowledge this frustration.
+:::
+
+---
+
+## A New Tool: The Code Translator
+
+Think of the AI as your personal **Code Translator**.
+
+- Your job is to form a clear, logical question.
+- The AI's job is to translate your question into code.
+
+::: {.incremental}
+- Coding is not about syntax.
+- It's about structuring a question.
+:::
+
+::: notes
+This reframes the problem. The user's barrier isn't 'coding'; it's 'translating a question into syntax.' We introduce the AI as a tool that handles the syntax part, freeing the user to focus on the logic of the question itself.
+:::
+
+---
+
+## Ask Your Spreadsheet a Question
+
+> "What if you could ask your spreadsheet a question in plain English and it gave you back a chart? Let's try it."
+
+::: notes
+This is the hook. It's a direct, compelling offer that promises to turn a frustrating task into an interactive conversation. It makes the abstract idea of code generation feel tangible and accessible.
+:::
+
+---
+
+## The Translator Workflow
+
+1.  **Describe:** Tell the AI about your data (columns, data types).
+2.  **Ask:** State your goal in plain English (e.g., "Show me sales by region").
+3.  **Generate:** The AI writes the code.
+4.  **Run & Review:** You run the code and check if the output makes sense.
+
+::: notes
+This is the core, repeatable loop. It's a simple, memorable process. It's crucial to include "Run & Review," as the code might have bugs. The process is interactive, not a single magic shot.
+:::
+
+---
+
+## A Lesson from History
+
+::: {.incremental}
+- During WWII, the German Enigma code was the ultimate "spreadsheet from hell."
+- At Bletchley Park, Alan Turing's team built the **Bombe machine**.
+- Operators didn't need to be engineers; they needed to form logical questions (e.g., "Does this message contain a weather report?").
+- The Bombe was a translator, turning questions into millions of decoded possibilities.
+:::
+
+::: notes
+Tell the story. "The operators of the Bombe machine were not electricians or engineers. They were classicists, linguists, and mathematicians. They were *question-askers*. They used the machine to translate their human-language hypotheses into machine-readable checks. You are the operator. The AI is your Bombe. Your job is to ask the right questions."
+:::
+
+---
+
+## Key Takeaway
+
+**The most important skill is forming a clear, logical question.**
+
+- You don't need to be a coder to analyze data.
+- You need to be a clear thinker.
+- Let the AI be your hands; you be the brain.
+
+---
+
+# Escaping the Weekly Report
+
+## From Manual Tasks to Automated Workflows
+
+---
+
+## The Pain of Repetitive Work
+
+::: {.incremental}
+- We are powerful analysts now. (L2, L3)
+- But we still do tasks by hand, one at a time.
+- Think of that one report you dread...
+- ...the one due at 4 PM every Friday.
+- It's boring, low-value, and stressful.
+:::
+
+::: notes
+Evoke the feeling. Everyone has a task like this. Make it tangible. The "4 PM Friday report" is a classic example of a task that drains energy and provides little satisfaction.
+:::
+
+---
+
+## A New Mindset: Workflow Engineer
+
+Stop being a **doer**. Start being a **designer**.
+
+- Don't just *do* the task.
+- **Design the machine** that does the task for you.
+- Your new title: **Workflow Engineer**.
+
+::: notes
+This is the big mindset shift. It elevates the user from someone who follows a process to someone who creates processes. The title "Workflow Engineer" sounds important and gives a name to this new, high-value skill.
+:::
+
+---
+
+## The Automation Question
+
+> "That report you spend an hour on every Friday... what if it just did itself? What would you do with that hour?"
+
+::: notes
+This is the core value proposition. It's not about the technology; it's about reclaiming time and focusing on higher-value work. This question should make the benefits of automation feel personal and immediate.
+:::
+
+---
+
+## How to Design a Workflow
+
+Map your process with this simple model:
+
+::: {layout-ncol=3}
+### 1. Trigger
+
+What event starts the process?
+*(e.g., "A new email arrives with 'Sales Data' in the subject")*
+
+### 2. Steps
+
+What are the exact actions you take?
+*(e.g., "Open attachment," "Copy data to spreadsheet," "Create chart")*
+
+### 3. Output
+
+What is the final result?
+*(e.g., "Chart is saved to folder," "Email is sent to manager")*
+:::
+
+::: notes
+This provides the "how." The Trigger-Step-Output model is a simple, memorable framework for deconstructing any process. To automate a task, you must first understand it perfectly. This model forces that understanding.
+:::
+
+---
+
+## Where the AI Fits In
+
+- Once you map your workflow, you can see the opportunities.
+- An AI can perform one or more of the **steps**.
+- **Example:** A step is "Summarize the key findings." An AI is perfect for that.
+
+::: notes
+Now we connect the AI back to the workflow. The AI isn't the whole solution; it's a powerful component that can be inserted into a workflow you design. This makes automation seem much more achievable.
+:::
+
+---
+
+## Key Takeaway
+
+**Your value is in designing the system, not operating it manually.**
+
+- Map your repetitive tasks.
+- Identify the trigger, steps, and output.
+- Find the step an AI can do for you.
+
+---
+# The Team's Smart Assistant
+
+## From Personal Hacks to Trustworthy Systems
+
+---
+
+## The Next Level
+
+- Your personal automation is amazing. (L4)
+- Your boss is impressed. They say:
+
+> "Great! Let's roll it out to everyone."
+
+- This is... terrifying.
+
+::: notes
+This sets up the tension. What works for you as a personal 'hack' is not ready for others. This is the moment of panic that forces a new level of thinking. A personal tool is a convenience; a team system is a responsibility.
+:::
+
+---
+
+## The Responsibility Question
+
+> "How would you need to change your personal workflow before you'd let your CEO make a decision based on its output?"
+
+::: notes
+This anchor question frames the challenge perfectly. It's not about features; it's about stakes. When decisions with real consequences are on the line, the standard for reliability and trustworthiness goes way up.
+:::
+
+---
+
+## From Productivity to Trust
+
+Building for others requires a new mindset: **Designing for Trust**.
+
+- A personal hack can be messy.
+- A team system must be transparent and verifiable.
+
+::: {.incremental}
+- **The most important feature you can build is trust.**
+:::
+
+::: notes
+The core message of this module. We are shifting from a purely technical problem (how do I make this work?) to a socio-technical one (how do I make this work in a way that other people can rely on it?).
+:::
+
+---
+
+## The Three Pillars of Trust
+
+How do you design a trustworthy system?
+
+::: {layout-ncol=3}
+### 1. Ground the AI
+
+Force the AI to use an approved library of facts (RAG), not its general knowledge.
+
+### 2. Show Its Work
+
+Make the AI cite its sources for every claim, so users can verify.
+
+### 3. Human Oversight
+
+Always provide a human an "eject button" or a way to review and approve the work.
+:::
+
+::: notes
+These are the practical design principles.
+1.  **Grounding (RAG):** This connects back to Level 2 (The Curator). Don't let the AI invent; force it to pull from your trusted library.
+2.  **Citations:** This gives the user the power to validate the output, connecting back to Level 1 (The Intern).
+3.  **Oversight:** This ensures the human is always in control, never a passive observer.
+:::
+
+---
+
+## Final Takeaway
+
+**Trust is a design choice.**
+
+- Building for others is not about better prompts.
+- It's about building a transparent, verifiable *system* around the AI.
+
+---
+
+## You Are Ready
+
+You've moved through 5 levels:
+
+1.  **Manager:** From magic brain to untrustworthy intern.
+2.  **Curator:** From chaos to a curated library.
+3.  **Translator:** From data entry to data analysis.
+4.  **Engineer:** From doing tasks to designing workflows.
+5.  **Architect:** From personal hacks to trustworthy systems.

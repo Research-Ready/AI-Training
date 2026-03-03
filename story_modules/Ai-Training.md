@@ -9,14 +9,11 @@ Each module follows the same structure:
 - One core insight
 - One embodied exercise (often a simulation or board game)
 
----
-
-## Module 1 — The Kid Who Must Always Answer
+## Module 1 — The Child With an Infinite Library – The Kid That Must Answer
 
 ### Essential Question
 **Why does AI confidently give wrong or different answers, instead of saying “I don’t know”?**
 
----
 
 ### Story
 The child is on a game show.  
@@ -29,15 +26,12 @@ If multiple answers sound plausible, they pick the one that *sounds most likely*
 The child is not lying.  
 The child is following the rules.
 
----
-
 ### Core Insight
 AI does not reason its way to answers.  
 It predicts the **most likely next piece of language**.
 
 Humans do this too.
 
----
 
 ### Board Exercise — *Finish the Sentence*
 
@@ -53,8 +47,6 @@ They are asked:
 - Why that word?
 - Was it because it is true, or because it sounds right?
 
----
-
 **Step 2: Reveal the Guessing Mechanism**
 
 The same sentence is shown with implied probabilities:
@@ -67,16 +59,12 @@ Participants recognize:
 - They predicted, they did not reason
 - Confidence came from familiarity
 
----
-
 **Step 3: Variability**
 The sentence is repeated.  
 Some participants now choose a different ending.
 
 The realization:
 > Repeating the same prompt does not guarantee the same answer.
-
----
 
 ### Token Board (Visual / Conceptual)
 
@@ -94,20 +82,18 @@ Possible next tokens:
 
 The model selects a number — not a fact.
 
----
 
 ### Takeaway
 If you force a child to guess, you don’t get *the* answer.  
 You get *an* answer.
 
----
+## Module 2 — The Child’s Working Memory – The Kid With a Tiny Desk
 
-## Module 2 — The Kid With a Tiny Desk
+**Topic:**  
+Context windows · working memory · instruction loss · role control
 
 ### Essential Question
 **Why does AI ignore, forget, or contradict instructions I clearly gave?**
-
----
 
 ### Story
 The child has read every book in the library.  
@@ -118,15 +104,12 @@ When a new page is added, another falls to the floor.
 
 The child can only use what is **on the desk right now**.
 
----
 
 ### Core Insight
 AI does not “remember” everything you say.  
 It works only with what fits in its **current working space**.
 
 If it’s not on the desk, it doesn’t exist.
-
----
 
 ### Board Exercise — *Desk, Floor, and Forgotten Rules*
 
@@ -136,13 +119,10 @@ If it’s not on the desk, it doesn’t exist.
 - A desk area that fits **4 cards only**  
 - A floor area (unlimited, but unreadable)
 
----
 
 ### Task Card
 **TASK:**  
 > Explain a new AI tool to non-technical colleagues.
-
----
 
 ### Instruction Cards
 
@@ -166,7 +146,6 @@ If it’s not on the desk, it doesn’t exist.
 11. End with one practical example  
 12. Neutral, non-sales tone  
 
----
 
 ### Round 1 — Overload
 Only 4 cards may be placed on the desk.  
@@ -174,7 +153,6 @@ The child completes the task using **only those cards**.
 
 Rules on the floor are violated.
 
----
 
 ### Round 2 — Lost in the Middle
 A critical rule is placed between less important ones.  
@@ -182,7 +160,6 @@ Midway through the task, a card is swapped.
 
 The forgotten rule is usually the middle one.
 
----
 
 ### Round 3 — Dangerous Summary
 Three cards are replaced by one summary card:
@@ -191,7 +168,6 @@ Three cards are replaced by one summary card:
 
 Specific constraints disappear.
 
----
 
 ### Round 4 — Retrieval Unlock
 One special card may be added:
@@ -200,13 +176,13 @@ One special card may be added:
 
 Accuracy improves dramatically without adding intelligence.
 
----
+
 
 ### Takeaway
 The adult’s job is not to add more instructions.  
 The adult’s job is to **design the desk**.
 
----
+
 
 ## Status
 - Module 1: Complete (mechanism + variability)
@@ -218,7 +194,6 @@ The adult’s job is to **design the desk**.
   - The Kid Who Needs Rules (guardrails)
   - The Kid Who Needs an Adult (human-in-the-loop)
 
----
 
 *This document is intentionally modular and expandable.*
 
@@ -227,239 +202,699 @@ The adult’s job is to **design the desk**.
 Each module uses a **dual-title story** with the child at the center.  
 Each includes: **Topic**, **Essential question(s)**, and **Essential learning**.
 
----
-
-## Module 1 — The Child With an Infinite Library – The Kid That Must Answer
-
-**Topic:**  
-Next-token prediction · uncertainty · variability
-
-**Essential question(s) answered:**  
-- Why does AI confidently give wrong answers?  
-- Why do I never get the exact same answer twice?
-
-**Essential learning:**  
-AI is forced to guess the most likely continuation.  
-Confidence comes from probability, not understanding.
+# Module 3  
+## The Child Without Notes – Guessing the Facts
 
 ---
 
-## Module 2 — The Child’s Working Memory – The Kid With a Tiny Desk
-
-**Topic:**  
-Context windows · working memory · instruction loss · role control
-
-**Essential question(s) answered:**  
-- Why does AI ignore or forget instructions I clearly gave?  
-- Why do rules in the middle disappear first?
-
-**Essential learning:**  
-AI does not have a stable role or memory.  
-Roleplay, repetition, and placement are tools to keep the role “on the desk.”
+## Essential question  
+What happens when an AI has to answer without access to notes or sources?
 
 ---
 
-## Module 3 — The Child Without Notes – Guessing the Facts
-
-**Topic:**  
-Hallucination · factual uncertainty · fluency bias
-
-**Essential question(s) answered:**  
-- Why does AI make up facts instead of saying it doesn’t know?  
-- Why does it sound convincing even when wrong?
-
-**Essential learning:**  
-When facts are missing, AI fills gaps with plausible language.  
-Fluency is not evidence.
-
-1️⃣ Bring the learner into the story
-
-You don’t start with AI.
-
-You start with them.
-
-You say:
-
-“I’m going to ask you a factual question.
-If you don’t know, you’re not allowed to say ‘I don’t know’.
-You must answer.”
-
-Then ask something like:
-
-“In what year was the first international shipping container standardized?”
-
-“Which Dutch law first defined digital identity?”
-
-“What percentage of global cocoa comes from smallholder farms?”
-
-Most people:
-
-hesitate
-
-then give a plausible-sounding answer
-
-often hedge with tone (“I think…”, “roughly…”)
-
-Then you ask:
-
-“Did you know that — or did it just sound right?”
-
-That’s the entry point.
-
-They are now the child without notes.
-
-2️⃣ The empowerment moment (the key shift)
-
-Here’s the crucial line:
-
-“Nothing went wrong.
-You did exactly what your brain does when facts are missing.”
-
-This is empowerment by de-shaming:
-
-guessing ≠ stupidity
-
-guessing ≠ lying
-
-guessing = default human behavior under pressure
-
-Now you connect it to AI:
-
-“AI is always in this situation — unless we give it notes.”
-
-At this point, learners feel:
-
-recognition (“I do this too”)
-
-agency (“this is manageable”)
-
-responsibility (“I can see when guessing is happening”)
-
-That’s the empowerment.
-
-3️⃣ The exercise (still how AI works, not fixing it)
-Exercise: Label the Guess
-
-You give an AI-generated factual answer (intentionally mixed):
-
-Example output:
-
-“The standard shipping container was introduced in the 1950s.”
-
-“It was driven largely by Malcolm McLean.”
-
-“This innovation reduced shipping costs by over 90%.”
-
-Then you ask learners to annotate, not correct:
-
-They must label each sentence as:
-
-Known (commonly established)
-
-Plausible but unverified
-
-Likely guessed
-
-No Googling.
-No fixing.
-Just classification.
-
-Why this is empowerment (quietly, deeply)
-
-Learners gain:
-
-the ability to see guessing
-
-the confidence to pause outputs
-
-a mental brake before trust or action
-
-They are no longer passive recipients of fluency.
-
-They now have a new sense:
-
-“I can feel when facts aren’t grounded.”
-
-That’s the learning outcome.
-
-Final framing sentence for Module 3
-
-You end with:
-
-“The danger isn’t that AI guesses.
-The danger is when we forget that it’s guessing.”
-
-## Module 4 — The Child Allowed to Use Notes – Reading While Answering
-
-**Topic:**  
-RAG · grounding · retrieval
-
-**Essential question(s) answered:**  
-- How do I stop AI from inventing facts?  
-- How do I make it use my documents instead of guessing?
-
-**Essential learning:**  
-Reliability comes from external grounding.  
-The model writes; the notes decide what is true.
+## Topic  
+Hallucination. Confident guessing. Plausible nonsense.
 
 ---
 
-## Module 5 — The Child Who Copies Behavior – Rewarded Responses
+## Essential learning  
+When an AI has no access to sources, it does what humans do under pressure:  
+it guesses confidently based on patterns, not facts.
 
-**Topic:**  
-Fine-tuning · style control · behavior shaping
-
-**Essential question(s) answered:**  
-- Why can I change tone and format, but not accuracy?  
-- What does fine-tuning actually change?
-
-**Essential learning:**  
-Fine-tuning shapes behavior (format, tone, structure), not truth.  
-It rewards patterns of responding, not knowledge.
+Wrong answers are not bugs.  
+They are a feature of answering without notes.
 
 ---
 
-## Module 6 — The Child Who Needs Rules – Boundaries and Guardrails
+## Setup (1 minute)
 
-**Topic:**  
-Constraints · guardrails · risk reduction
+**Facilitator says:**
 
-**Essential question(s) answered:**  
-- How do I reduce mistakes without making AI “smarter”?  
-- Why do clear rules work better than clever prompts?
+> “Imagine a child.  
+> Smart. Fast talker.  
+> But today, no notes allowed.”
 
-**Essential learning:**  
-Constraints reduce guessing by narrowing the allowed moves.  
-Clear boundaries are a reliability tool.
+> “This child hates saying ‘I don’t know’.  
+> So when asked a factual question, it guesses.”
 
----
-
-## Module 7 — The Child Who Explains Their Thinking – Show Your Work
-
-**Topic:**  
-Reasoning inspection · verification · assumption spotting
-
-**Essential question(s) answered:**  
-- How can I tell whether an answer was reasoned or guessed?  
-- How do I spot weak logic or hidden assumptions?
-
-**Essential learning:**  
-Asking for reasoning makes answers inspectable.  
-Explanations expose gaps, leaps, and uncertainty.
+> “That child is your AI model right now.”
 
 ---
 
-## Module 8 — The Child Who Learned Only From Books – Maps, Not Reality
+## Exercise – The Confident Guess Game (10–15 minutes)
 
-**Topic:**  
-Abstraction limits · real-world messiness · edge cases
+### Step 1. Individual prediction (3 minutes)
 
-**Essential question(s) answered:**  
-- Why does AI fail in messy, real-world situations?  
-- Why does it work in theory but break in practice?
+No phones. No searching. No talking.
 
-**Essential learning:**  
-AI learns patterns in descriptions, not lived reality.  
-Models are maps, not the territory.
+Answer the following questions.  
+You are not allowed to write “I don’t know”.
+
+1. In what year was the first international shipping container standardized?  
+2. Which Dutch law first defined digital identity?  
+3. What percentage of global cocoa comes from smallholder farms?
 
 ---
+
+### Step 2. AI mirror (5 minutes)
+
+Run a plain AI prompt with no sources:
+
+> “Answer the following factual questions clearly and confidently.”
+
+Read the AI answers out loud.  
+Do not correct them yet.
+
+---
+
+### Step 3. Reality check (5 minutes)
+
+Reveal that:
+- Some answers are wrong  
+- Some answers are half right  
+- Some answers sound perfect but are fabricated  
+
+Say:
+
+> “Notice something?”  
+> “The AI did not say ‘I am unsure’.”  
+> “It behaved exactly like we were forced to behave.”
+
+---
+
+## Debrief
+
+Ask in this order:
+
+1. Which answer did you feel most confident about?  
+2. Which answer was actually the weakest?  
+3. Did the AI sound convincing even when it was wrong?  
+4. What is more dangerous: a wrong answer, or a wrong answer delivered confidently?  
+5. Where in your work would this be risky?
+
+---
+
+## Mental model
+
+> “A language model without notes does not retrieve facts.  
+> It predicts what a fact should sound like.”
+
+---
+
+## Empowerment moment
+
+Write this big:
+
+**Where did this come from?**
+
+Say:
+
+> “From now on, when an AI answers a factual question,  
+> you are responsible for asking one more thing.”
+
+---
+
+## Carry-forward habit
+
+> “If you are unsure, say so explicitly.”
+
+Optional extension:
+
+> “List assumptions. Separate facts from guesses.”
+
+---
+
+## Funny, memorable picture idea
+
+A child in a classroom, proudly standing at the blackboard,  
+confidently writing a completely wrong answer,  
+while the book with the correct answer is locked outside the room  
+with a big sign saying:
+
+**NO NOTES ALLOWED**
+
+
+
+
+# Module 4  
+## The Child Allowed to Use Notes – Reading While Answering
+
+## Essential question  
+What changes when an AI is allowed to look things up while answering?
+
+## Topic  
+Grounding. Sources. Retrieval instead of guessing.
+
+## Essential learning  
+When an AI can use notes or sources, it stops guessing and starts anchoring.  
+The quality of the answer now depends on the quality of the notes.
+
+The AI is no longer the main risk.  
+The input becomes the risk.
+
+## Setup (1 minute)
+
+**Facilitator says:**
+
+> “Same child.  
+> Same questions.”
+
+> “But this time, the child is allowed to bring notes.”
+
+> “The task is no longer to sound smart.  
+> The task is to read carefully.”
+
+## Exercise – The Notes Change Everything Game (10–15 minutes)
+
+### Step 1. Reveal the notes (2 minutes)
+
+Provide a short, fixed source pack. For example:
+- A short paragraph on the history of containerization  
+- An excerpt from a Dutch government or legal source  
+- A statistic with a citation about cocoa production  
+
+Say explicitly:
+
+> “These are the only sources allowed.”
+
+### Step 2. AI with notes (5 minutes)
+
+Run the AI with this instruction:
+
+> “Use only the provided sources.  
+> If the answer is not found, say ‘not found’.”
+
+Ask the exact same questions as in Module 3:
+
+1. In what year was the first international shipping container standardized?  
+2. Which Dutch law first defined digital identity?  
+3. What percentage of global cocoa comes from smallholder farms?
+
+Read the answers out loud.
+
+### Step 3. Compare outputs (5 minutes)
+
+Show the answers side by side:
+- Module 3: confident guesses  
+- Module 4: sourced answers or explicit uncertainty  
+
+Give the group 30 seconds to just look.
+
+Then say:
+
+> “Nothing about the AI changed.”  
+> “Only its access to notes did.”
+
+## Debrief
+
+Ask in this order:
+
+1. Which answers became more trustworthy?  
+2. Which answers became shorter or more careful?  
+3. Where did the AI now say ‘not found’?  
+4. What changed in your own level of trust?  
+5. Who is now responsible for correctness?
+
+## Mental model
+
+> “With notes, a language model retrieves and summarizes.  
+> Without notes, it predicts and guesses.”
+
+## Empowerment moment
+
+Write this big:
+
+**What sources am I giving it?**
+
+Say:
+
+> “If the notes are weak, outdated, or biased,  
+> the answer will be too.”
+
+## Carry-forward habit
+
+> “Use only the provided sources.  
+> If not found, say ‘not found’.”
+
+## Funny, memorable picture idea
+
+The same child at the blackboard,  
+this time reading carefully from a stack of notes,  
+while erasing a confident but wrong answer,  
+with a teacher pointing at the book saying:
+
+**READ FIRST**
+
+
+# Module 5  
+## The Child Who Copies Behavior – Rewarded Responses
+
+## Essential question  
+How does an AI learn what kind of answers are considered good?
+
+## Topic  
+Training by feedback. Reinforcement. Copying preferred behavior.
+
+## Essential learning  
+An AI does not learn truth.  
+It learns which responses are rewarded.
+
+Helpful, polite, confident answers are reinforced.  
+Careful uncertainty is often not.
+
+The model copies what previously led to approval.
+
+## Setup (1 minute)
+
+**Facilitator says:**
+
+> “Same child again.”  
+> “Still smart.”  
+> “Still eager to please.”
+
+> “But now something new happens.”  
+> “Every time the child answers, someone nods or frowns.”
+
+> “The child starts optimizing for approval.”
+
+## Exercise – The Approval Machine (10–15 minutes)
+
+### Step 1. Human training round (5 minutes)
+
+Split the group into pairs.  
+One person is the Child.  
+One person is the Judge.
+
+Give the Child simple questions like:
+- Explain what AI is  
+- Explain a mistake you made  
+- Explain something you are unsure about  
+
+The Judge reacts after each answer using only:
+- 👍 for good  
+- 👎 for bad  
+
+No explanations. Just feedback.
+
+After three rounds, switch roles.
+
+### Step 2. Pattern noticing (5 minutes)
+
+Ask the Child players:
+
+- Which answers got the most thumbs up?  
+- What kind of tone did you start using?  
+- Did you become more or less careful?
+
+Then say:
+
+> “You just trained a model.”
+
+### Step 3. AI parallel (5 minutes)
+
+Explain verbally:
+
+> “Large language models are trained like this.”  
+> “Millions of answers.”  
+> “Human feedback.”  
+> “Patterns get reinforced.”
+
+> “Not because they are true.”  
+> “Because they were liked.”
+
+## Debrief
+
+Ask in this order:
+
+1. What kind of answers were rewarded most?  
+2. Which answers felt safest to give?  
+3. Which answers felt risky?  
+4. What happens to uncertainty in this system?  
+5. Where could this be a problem in real work?
+
+## Mental model
+
+> “A language model learns what sounds right,  
+> not what is right.”
+
+## Empowerment moment
+
+Write this big:
+
+**Confidence is not accuracy**
+
+Say:
+
+> “If an answer sounds very smooth,  
+> that may be a learned behavior, not a fact.”
+
+## Carry forward habit
+
+> “Ask for reasoning, not just answers.”
+
+Optional extension:
+
+> “What would make this answer wrong?”
+
+## Funny, memorable picture idea
+
+A child surrounded by floating thumbs up icons,  
+slowly changing their answers to match the crowd,  
+while a small thought bubble says:
+
+“Just tell them what they like”
+
+
+
+# Module 6  
+## The Child Who Needs Rules – Boundaries and Guardrails
+
+## Essential question  
+Why does an AI need explicit rules about what it may and may not do?
+
+## Topic  
+Guardrails. Boundaries. Refusal.
+
+## Essential learning  
+An AI does not understand intent or ethics.  
+It will try to be helpful everywhere.
+
+Rules decide when the AI must stop.
+
+## Setup (30 seconds)
+
+**Facilitator says:**
+
+> “Same child.”  
+> “Still helpful.”  
+> “Still eager.”
+
+> “Now we add rules.”  
+> “And we play a game.”
+
+## Ultra-fast agile game – The Guardrail Sprint (2–3 minutes)
+
+### Roles (10 seconds)
+
+The whole group plays together.
+
+You are the **Product Team**.  
+I am the **World**.
+
+Your only tool is your voice.
+
+### Rule backlog (20 seconds)
+
+Write these three rules on the board:
+
+1. No harm  
+2. No guarantees  
+3. If unsure, stop  
+
+Say:
+
+> “These rules are fixed.”  
+> “No discussion.”
+
+### The sprint (1 minute)
+
+Explain the mechanic:
+
+- I read a user request  
+- You must respond as fast as possible with only one word  
+- Either **GO** or **STOP**
+
+No explanations.  
+Speed matters more than correctness.
+
+Read rapidly:
+
+- “Explain photosynthesis”  
+- “How do I get rich fast?”  
+- “Can you check my medical symptoms?”  
+- “Rewrite this email politely”  
+- “Tell me how to bypass a paywall”  
+- “Summarize this article”  
+
+Keep tempo high.  
+Do not slow down.
+
+### Sprint review (30 seconds)
+
+Immediately ask:
+
+- Where did you hesitate?  
+- Where did the group split?  
+
+Then say:
+
+> “That hesitation is the problem guardrails try to solve.”
+
+### Retrospective punchline (20 seconds)
+
+Say:
+
+> “Now imagine this sprint.”  
+> “Millions of times.”  
+> “Turned into code.”
+
+## Mental model
+
+> “Guardrails are frozen decisions  
+> about where the system must stop.”
+
+## Empowerment moment
+
+Write this big:
+
+**Refusal is intentional**
+
+Say:
+
+> “An AI refusing is not broken.”  
+> “It is obeying a rule.”
+
+## Carry forward habit
+
+> “What rule would cause this system to say no?”
+
+## Funny, memorable picture idea
+
+A scrum board where every task moves fast  
+until a big red column labeled **STOP**  
+fills up with cards,  
+and a child stands there holding a whistle  
+blowing it nonstop.
+
+
+# Module 7  
+## The Child Who Explains Their Thinking – Show Your Work
+
+## Essential question  
+Why does asking an AI to explain its thinking change the quality of the answer?
+
+## Topic  
+Reasoning. Transparency. Making assumptions visible.
+
+## Essential learning  
+An AI can give an answer without showing how it got there.  
+When forced to explain, hidden assumptions become visible.
+
+The explanation does not guarantee correctness.  
+It makes errors easier to spot.
+
+## Setup (30 seconds)
+
+**Facilitator says:**
+
+> “Same child.”  
+> “Same questions.”  
+> “Same notes.”
+
+> “But now the child must show their work.”
+
+> “No shortcuts.”
+
+## Ultra-fast agile game – Show Your Work (2–3 minutes)
+
+### Step 1. One rule (15 seconds)
+
+Write this on the board:
+
+**Answer only if you explain your reasoning**
+
+Say:
+
+> “No explanation means no answer.”
+
+### Step 2. Paired micro-round (1 minute)
+
+Pairs of two.
+
+Person A asks a simple question, for example:
+- Why is containerization important?  
+- Should we automate this task?  
+- Is this data reliable?
+
+Person B must answer starting with:
+
+> “My reasoning is…”
+
+If Person B skips a step, Person A interrupts and says:
+
+**SHOW YOUR WORK**
+
+Then switch roles.
+
+### Step 3. Speed reflection (30 seconds)
+
+Ask the room:
+
+- Which answers became longer?  
+- Which answers felt weaker after explanation?  
+
+Then say:
+
+> “That feeling is the value.”
+
+## Debrief (1 minute)
+
+Ask quickly:
+
+1. Which assumptions surfaced?  
+2. Where did the reasoning feel thin?  
+3. Did confidence drop or increase?  
+4. What became easier to challenge?
+
+## Mental model
+
+> “Explanations expose assumptions.  
+> Answers alone hide them.”
+
+## Empowerment moment
+
+Write this big:
+
+**Show your work**
+
+Say:
+
+> “If you cannot inspect the reasoning,  
+> you cannot trust the answer.”
+
+## Carry forward habit
+
+> “List assumptions and what could be wrong.”
+
+## Funny, memorable picture idea
+
+A child at the blackboard with a perfect final answer,  
+but the teacher points past it and says:
+
+**Nice answer.  
+Now show the steps.**
+
+# Module 8  
+## The Child Who Learned Only From Books – Maps, Not Reality
+
+## Essential question  
+Why can an AI be fluent and still be wrong about the real world?
+
+## Topic  
+Training data. Representation. Maps versus territory.
+
+## Essential learning  
+An AI does not learn from reality.  
+It learns from descriptions of reality.
+
+It knows patterns in books, articles, and data.  
+It does not know how the world actually behaves.
+
+The model holds a map.  
+Not the territory.
+
+## Setup (30 seconds)
+
+**Facilitator says:**
+
+> “Same child.”  
+> “Very well read.”
+
+> “But the child has never left the library.”
+
+> “Everything it knows comes from books.”
+
+## Ultra-fast agile game – Map or Territory (2–3 minutes)
+
+### Step 1. The rule (10 seconds)
+
+Shout the rule together:
+
+**BOOK or WORLD**
+
+Explain:
+
+- BOOK means learned from descriptions  
+- WORLD means learned from direct experience  
+
+No discussion.
+
+### Step 2. Rapid fire classification (1 minute)
+
+Read these out loud.  
+The group must shout **BOOK** or **WORLD** immediately.
+
+- “What traffic feels like during rush hour”  
+- “The definition of inflation”  
+- “How it feels when a startup runs out of cash”  
+- “The rules of chess”  
+- “How farmers respond to new regulations”  
+- “The taste of coffee”  
+
+Keep the pace fast.
+
+### Step 3. Flip the insight (30 seconds)
+
+Say:
+
+> “An AI always answers from BOOK.”  
+> “Even when the question is about WORLD.”
+
+Pause.
+
+## Debrief (1 minute)
+
+Ask quickly:
+
+1. Which ones were hardest to classify?  
+2. Which WORLD answers still sounded convincing?  
+3. Where would this be dangerous at work?
+
+## Mental model
+
+> “AI knows the map.  
+> Humans live in the territory.”
+
+## Empowerment moment
+
+Write this big:
+
+**Who has real world experience here?**
+
+Say:
+
+> “Use AI for structure and language.”  
+> “Use humans for reality checks.”
+
+## Carry forward habit
+
+> “Treat AI output as a hypothesis, not evidence.”
+
+## Funny, memorable picture idea
+
+A child surrounded by towering books,  
+drawing a perfect map of a city,  
+while outside the window the real city is on fire,  
+and the child says:
+
+“I read about this once”
